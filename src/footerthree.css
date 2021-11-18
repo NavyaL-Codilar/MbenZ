@@ -1,0 +1,73 @@
+.footer-vertical-line {
+    margin-top: 2rem;
+    border: 1px solid white;
+    margin-left: 1.8rem;
+    width: 95%;
+}
+.main-footer {
+    margin-top: 1.3rem;
+    padding-left: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.9rem;
+    padding-bottom: 1.3rem;
+}
+
+.main-footer-first-part {
+    margin-top: 1rem;
+}
+
+.main-footer-first-part p {
+    color: #999;
+}
+
+.main-footer-first-part p a {
+    color: white;
+}
+
+.main-footer-first-part p a:hover {
+    color: #63B1E3;
+}
+
+.main-footer-second-part {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-top: 2.5rem;
+}
+
+.under-second-part ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.under-second-part ul li {
+    width: auto;
+    padding-left: 1.4rem;
+}
+
+.under-second-part ul li a {
+    color: #999;
+}
+
+.under-second-part ul li a:hover {
+    color: #63B1E3;
+}
+
+.top-button {
+    width: 8%;
+    padding-left: 1.5rem;
+}
+
+.top-button a {
+    color: #999;
+}
+
+.top-button a svg {
+    padding-left: 0;
+    padding-top: 0.956rem;
+}
+
+.top-button a:hover {
+    color: #63B1E3;
+}

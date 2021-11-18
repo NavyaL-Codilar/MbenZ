@@ -1,0 +1,98 @@
+.three-link-menus {
+    text-align: center;
+    margin-top:4rem;
+   
+}
+
+.three-link-menus svg {
+    padding-right: 1rem;
+}
+
+.three-link-menus a {
+    font-size:0.8rem;
+    padding-left: 2.6rem;
+}
+
+.first-link-active {
+    color: #00ADEF;
+    
+}
+/* .three-link-menus .underline{
+    border: 1px solid #00ADEF;
+} */
+.image-grids{
+    margin-top: 1.7rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.first-image-grids{
+display: flex;
+width:100%;
+}
+
+.right-side-first-image-grid{
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+}
+.right-side-first-image-grid img {
+    height: 50%;
+    width:100%;
+}
+.second-imnage-grids{
+    display: flex;
+}
+.second-image-grids img {
+    width: 33.3%;
+}
+.third-imnage-grids{
+    display: flex;
+}
+.third-image-grids img {
+    width: 33.3%;
+}
+.fourth-image-grids{
+    display: flex;
+    width:100%;
+    }
+    
+    .right-side-fourth-image-grid{
+        display: flex;
+        flex-direction: column;
+        width: 47%;
+    }
+.right-side-fourth-image-grid img {
+        height: 50%;
+        width:100%;
+}
+.fifth-image-grids{
+    display: flex;
+}
+.fifth-image-grids img{
+    width:35%;
+}
+.more-view-grid-button {
+    margin-top: 1.5rem;
+    margin-left: 40%;
+    background: #202020;
+    padding-top: 0.4rem;
+    padding-bottom: 0.1rem;
+    padding-left: 1.8rem;
+    width: 10rem;
+    height: 2.5rem;
+}
+
+.more-view-grid-button a {
+    color: #999;
+    border: 1px solid #202020;
+}
+
+.more-view-grid-button a svg {
+    padding-right: 0.5rem;
+   
+}
+
+.more-view-grid-button a:hover {
+    color: white;
+}   

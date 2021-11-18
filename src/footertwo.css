@@ -1,0 +1,60 @@
+.lower-section-contact-box {
+    margin-top: 1.8rem;
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
+}
+
+.under-contact-box-heading {
+    color: white;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.lower-section-contact-box hr {
+    margin-top: 2rem;
+    border: 1px solid white;
+}
+
+.under-contact-box-para {
+    color: white;
+    margin-top: 2rem;
+    width: 33rem;
+    color: #999;
+}
+.under-contact-box-para p{
+   font-size: 0.83rem;
+}
+
+.under-contact-box-para ul {
+    display: flex;
+    margin-top: 1.3rem;
+}
+
+.under-contact-box-para a {
+    width: auto;
+}
+
+.under-contact-box-para ul li {
+    width: 3rem;
+    margin: 10px 16.66667px;
+    font-size: 1.45rem;
+}
+
+.under-contact-box-para ul li a svg {
+    padding-left: 0;
+    color: #999;
+}
+
+.under-contact-box-para a:hover svg {
+    color: #63B1E3;
+}
+.footer-brand-images {
+    display: flex;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.footer-brand-images img {
+    width: 100%;
+    height: 2rem;
+}

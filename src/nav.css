@@ -1,0 +1,98 @@
+.nav-container {
+    background-color: #000;
+    display: flex;
+}
+
+.logo-container {
+    display: flex;
+    width: 30%;
+}
+
+.brandhub-header__logo {
+    margin-top: 1rem;
+    margin-bottom: 1.8rem;
+    height: 5.3rem;
+    width: 6rem;
+}
+
+.nav-container .name {
+    color: rgb(255, 255, 255);
+    margin-top: auto;
+    margin-left: 2.4rem;
+    margin-bottom: 1.4rem;
+    font-size: 1.1rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.right-side-container {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.brandhub-icon {
+    width: auto;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo-link svg {
+    width: auto;
+    padding-right: 0.4rem;
+}
+
+.upper-menu {
+    display: flex;
+    padding-top: 0.3rem;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-right: 1.8rem;
+}
+
+.sub-upper-menu {
+    width: auto;
+    color: white;
+    padding-left: 2rem;
+}
+
+.right-lower {
+    margin-top: auto;
+    margin-bottom: 0.6rem;
+}
+
+.lower-menu-item {
+    display: flex;
+    width: auto;
+    padding-right: 1rem;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-size: 1rem;
+}
+
+.lower-menu-item>li {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: auto;
+    padding-left: 2rem;
+}
+
+
+@media only screen and (max-width: 768px){
+    
+    .sub-upper-menu{
+        display: none;
+    }
+
+    .right-lower ul{
+        display: block;
+
+
+    }
+    
+  }
